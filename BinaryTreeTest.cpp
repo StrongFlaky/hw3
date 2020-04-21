@@ -6,7 +6,7 @@ using namespace std;
  * Test BinaryTree balanceFactors() function
  */
 int main() {
-    BinaryTree tree(100);
+    BinaryTree tree(5);
     tree.newick();
     unordered_map<int,int> bf = tree.balanceFactors();
     for(auto pair : bf) {
